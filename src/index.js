@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 var i, fact=1;
-function factorial(num)
+const factorial=(num)=>
 {
     for(i=1;i<=num;i++)
     {
